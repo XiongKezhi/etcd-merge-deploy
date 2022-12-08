@@ -1,0 +1,29 @@
+---
+root: ~
+dir: ~/etcd/contrib/raftexample
+raftPort: 12379
+httpPort: 12380
+mergePort: 12381
+password:
+clusters:
+  integration-test-1:
+    - id: 1
+      ip: 10.200.125.51
+    - id: 2
+      ip: 10.200.125.52
+    - id: 3
+      ip: 10.200.125.53
+  integration-test-2:
+    - id: 4
+      ip: 10.200.125.54
+    - id: 5
+      ip: 10.200.125.55
+    - id: 6
+      ip: 10.200.125.56
+  integration-test-3:
+    - id: 7
+      ip: 10.200.125.57
+    - id: 8
+      ip: 10.200.125.58
+    - id: 9
+      ip: 10.200.125.59
